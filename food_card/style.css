@@ -1,0 +1,83 @@
+.card {
+  width: 400px;
+  height: 500px;
+  border: 1px solid;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-shadow: -5px 5px 5px 8px #787878;
+}
+
+.img_div {
+  position: relative;
+}
+
+.img {
+  width: 400px;
+  height: 350px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.offer {
+  position: absolute;
+  bottom: 15px;
+  /* border-bottom-left-radius: 5px; */
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
+
+.time {
+  position: absolute;
+  bottom: 15px;
+  margin-left: 330px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+
+.adv {
+  position: absolute;
+  top: 0;
+  margin-left: 10px;
+  /* background-color: #787878; */
+  padding: 8px;
+  border-radius: 10px;
+  backdrop-filter: blur(70px);
+  color: white;
+  font-size: 10px;
+}
+
+.heading {
+  margin: 10px 0 5px 0;
+  padding-left: 2px;
+}
+
+.place {
+  margin: 5px 0;
+  padding: 2px;
+  color: #787878;
+  font-size: 20px;
+}
+
+hr {
+  color: #787878;
+  text-decoration-line: none;
+}
+
+.safe_img {
+  margin: 10px 10px 0 0;
+  width: 90px;
+  height: 30px;
+  float: left;
+  display: inline;
+}
+
+.dis {
+  display: inline;
+  color: #787878;
+}
